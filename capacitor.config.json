@@ -1,0 +1,41 @@
+{
+  "appId": "com.ionicmudatapp",
+  "appName": "MudaT",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "server": {
+    "allowNavigation": [
+      "capacitor://localhost",
+      "ionic://localhost",
+      "http://localhost",
+      "http://localhost:8080",
+      "http://localhost:8100"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {
+    "preferences": {
+      "ScrollEnabled": "false",
+      "BackupWebStorage": "none",
+      "android-minSdkVersion": "22",
+      "SplashMaintainAspectRatio": "true",
+      "FadeSplashScreenDuration": "300",
+      "SplashShowOnlyFirstTime": "false",
+      "SplashScreen": "none",
+      "SplashScreenDelay": "3000",
+      "LottieAnimationLocation": "www/assets/lottieFile/animation.json",
+      "LottieFullScreen": "true",
+      "LottieBackgroundColor": "#ffffff",
+      "LottieLoopAnimation": "true",
+      "AndroidXEnabled": "true",
+      "GradlePluginKotlinEnabled": "true",
+      "GradlePluginKotlinCodeStyle": "official",
+      "GradlePluginKotlinVersion": "1.3.50"
+    }
+  }
+}
